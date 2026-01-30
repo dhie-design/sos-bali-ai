@@ -4,8 +4,8 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
 # 1. Setup
-st.set_page_config(page_title="SOS Bali AI", page_icon="🥗")
-st.title("🥗 SOS Bali: AI Food Identifier")
+st.set_page_config(page_title="AI Food Identifier", page_icon="🥗")
+st.title("🥗 AI Food Identifier")
 
 # 2. Connect to your Google Sheet (PASTE YOUR LINK BELOW)
 GOOGLE_SHEET_CSV_URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vR4mdRkqAP4qYj1Ip4d3aNldc9gtKDb5wY1bEuZRGxL4PI5FbR6EEhVIsupJH6Az4FATRLPGmnJyDGh/pub?gid=315018304&single=true&output=csv"
